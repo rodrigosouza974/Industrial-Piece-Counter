@@ -59,11 +59,13 @@
     <UnityVersion>2022.3.60f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\i5\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\i5\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="D:\2022.3.60f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="D:\2022.3.60f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ConveyorTransports.cs" />
+    <Compile Include="Assets\Scripts\SpawnManager.cs" />
     <Compile Include="Assets\Scripts\Counter.cs" />
   </ItemGroup>
   <ItemGroup>
